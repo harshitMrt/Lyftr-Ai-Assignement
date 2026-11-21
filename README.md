@@ -4,9 +4,10 @@ A resilient, multi-turn AI chat application built with FastAPI, SQLite, LiteLLM 
 
 ## Live URLs
 
-- **Frontend**: [http://localhost:3000](http://localhost:3000)
-- **Backend API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Backend Health Check**: [http://localhost:8000/health](http://localhost:8000/health)
+- **Backend Live URL**: [https://lyftr-ai-assignement.onrender.com](https://lyftr-ai-assignement.onrender.com)
+- **Backend Health Check**: [https://lyftr-ai-assignement.onrender.com/health](https://lyftr-ai-assignement.onrender.com/health)
+- **Backend API Docs (Swagger)**: [https://lyftr-ai-assignement.onrender.com/docs](https://lyftr-ai-assignement.onrender.com/docs)
+- **Frontend Live URL**: (Insert your Vercel deployment URL here, e.g. `https://lyftr-ai-assignement.vercel.app`)
 
 ## Run locally: with Docker and without
 
