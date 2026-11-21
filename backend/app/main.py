@@ -75,6 +75,14 @@ class ChatRequest(BaseModel):
             raise ValueError("message must be between 1 and 4000 characters")
         return s
 
+@app.get("/")
+def root():
+    return {
+        "message": "AI Chat Backend API is running.",
+        "health": "/health",
+        "docs": "/docs"
+    }
+
 @app.get("/health")
 def health_check():
     return {
